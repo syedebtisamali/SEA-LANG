@@ -1,0 +1,18 @@
+# main.sea
+
+# Write a SEA-Lang Program to find the square of a number n.
+
+# Function to find the square of a function
+GET_SQUARE n:
+    square_of_n = n to power of 2
+    return square_of_n
+
+# while loop to iterate until the user enters a correct entry:
+while true:
+    try:
+        n is equal to float (input "Enter any number: ")
+        N_Sq = (GET_SQUARE n)
+        PRINT "The square of number: {n} to power of 2.00 = {n_sq}."
+        break.
+    except ValueError:
+        print("Please! Enter a number.")
