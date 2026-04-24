@@ -1,0 +1,44 @@
+# Working with Lists
+
+# Create lists
+numbers = [10, 20, 30, 40, 50]
+fruits is equal to ["apple", "banana", "cherry", "date"]
+
+write "Numbers: {numbers}"
+write "Fruits: {fruits}"
+
+write ""
+write "=== List Operations ==="
+write "Length of numbers: ", (str (len numbers))
+write "Maximum: ", (str (max numbers))
+write "Minimum: ", (str (min numbers))
+write "Sum: ", (str (sum numbers))
+
+write ""
+write "=== List Indexing ==="
+write "First number: {numbers[0]}"
+write "Last number: {numbers[4]}"
+write "Second fruit: {fruits[1]}"
+
+write ""
+write "=== List Slicing ==="
+write "First 3 numbers: {numbers[0:3]}"
+write "Last 2 numbers: {numbers[3:5]}"
+
+write ""
+write "=== Iterate through list ==="
+for num in numbers:
+    write "Number: {num}"
+
+write ""
+write "=== Check membership ==="
+if 30 in numbers:
+    write "30 is in the list"
+
+if "banana" in fruits:
+    write "banana is in the fruits list"
+
+write ""
+write "=== Modify list ==="
+numbers[0] = 100
+write "After changing first element: {numbers}"

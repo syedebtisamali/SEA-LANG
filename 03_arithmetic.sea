@@ -1,0 +1,13 @@
+# Arithmetic Operations
+
+# Natural language style
+a is equal to 10
+b is equal to 3
+
+write "a = {a}, b = {b}"
+write "a + b = {a + b}"
+write "a - b = {a - b}"
+write "a * b = {a * b}"
+write "a / b = {a / b}"
+write "a % b = {a % b}"
+write "a ** b = {a ** b}"

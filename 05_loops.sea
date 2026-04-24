@@ -1,0 +1,37 @@
+# Loop Examples
+
+write "=== While Loop ==="
+count is equal to 0
+while count less than 5:
+    write "Count: {count}"
+    count plus equal to 1
+
+write ""
+write "=== For Loop ==="
+for i in [1, 2, 3, 4, 5]:
+    write "Number: {i}"
+
+write ""
+write "=== For Loop with range ==="
+i approches to 5:
+    write "i = {i}"
+
+write ""
+write "=== For Loop with range (1 to 5) ==="
+i approches to 1, 6:
+    write "i = {i}"
+
+write ""
+write "=== Loop Control (break) ==="
+i approches to 10:
+    if i equal to 5:
+        write "Breaking at i = {i}"
+        break.
+    write "i = {i}"
+
+write ""
+write "=== Loop Control (continue) ==="
+i approches to 5:
+    if i equal to 2:
+        continue
+    write "i = {i}"

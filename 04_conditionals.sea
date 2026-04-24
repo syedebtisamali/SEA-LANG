@@ -1,0 +1,38 @@
+# Conditional Statements (if/else)
+
+# Simple if
+score is equal to 85
+if score greater than or equal to 80:
+    write "Good score!"
+
+# if/else
+age is equal to 16
+if age greater than or equal to 18:
+    write "You are an adult"
+else:
+    write "You are a minor"
+
+# if/else if/else
+temperature = 15
+if temperature greater than 25:
+    write "It's hot!"
+else if temperature greater than 15:
+    write "It's warm"
+else if temperature greater than 5:
+    write "It's cool"
+else:
+    write "It's cold!"
+
+# Using logical operators
+x = 7
+y = 3
+if x greater than 5 and y less than 5:
+    write "Both conditions are true"
+
+if x equal to 7 or y equal to 10:
+    write "At least one condition is true"
+
+# Using 'not'
+is_raining = false
+if not is_raining:
+    write "It's a nice day!"

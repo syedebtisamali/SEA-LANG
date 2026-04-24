@@ -1,0 +1,41 @@
+# String Manipulation
+
+text is equal to "Hello World"
+
+write "Original: {text}"
+write "Length: ", str (len text)
+write "Uppercase: {text.upper()}"
+write "Lowercase: {text.lower()}"
+
+write ""
+write "=== String Slicing ==="
+write "First 5 chars: {text[0:5]}"
+write "Last 5 chars: {text[6:11]}"
+
+write ""
+write "=== String Searching ==="
+if "World" in text:
+    write "'World' is in the text"
+
+if "xyz" not in text:
+    write "'xyz' is not in the text"
+
+write ""
+write "=== String Methods ==="
+sentence is equal to "the quick brown fox"
+write "Original: {sentence}"
+write "Capitalized: {sentence.capitalize()}"
+write "Title case: {sentence.title()}"
+
+write ""
+write "=== String Replacement ==="
+old_text is equal to "I like cats"
+new_text = old_text.replace("cats", "dogs")
+write "Old: {old_text}"
+write "New: {new_text}"
+
+write ""
+write "=== String Splitting ==="
+csv_data is equal to "apple,banana,cherry"
+items = csv_data.split(",")
+write "Items: {items}"

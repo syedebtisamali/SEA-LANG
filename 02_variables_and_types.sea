@@ -1,0 +1,25 @@
+# Variables and Data Types
+
+# Numbers
+age is equal to 25
+height = 5.9
+
+# Strings
+name is equal to "Alice"
+greeting = "Welcome to SEA Lang!"
+
+# Booleans
+is_student is equal to true
+is_teacher = false
+
+# Collections
+numbers = [1, 2, 3, 4, 5]
+person is equal to {"name": "Bob", "age": 30}
+
+# Display everything
+write "Name: {name}"
+write "Age: {age}"
+write "Height: {height}"
+write "Is Student: {is_student}"
+write "Numbers: {numbers}"
+write "Person: {person}"

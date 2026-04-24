@@ -1,0 +1,42 @@
+# Function Examples
+
+# Simple function with one parameter
+GREET name:
+    write "Hello, {name}!"
+
+# Function with multiple parameters
+GET_SUM a b:
+    total is equal to a plus b
+    return total
+
+# Function with calculation
+GET_SQUARE n:
+    result is equal to n to power of 2
+    return result
+
+# Function with if/else
+GET_GRADE score:
+    if score greater than or equal to 90:
+        return "A"
+    else if score greater than or equal to 80:
+        return "B"
+    else if score greater than or equal to 70:
+        return "C"
+    else:
+        return "F"
+
+# Call the functions
+GREET "Alice"
+GREET "Bob"
+
+sum_result is equal to GET_SUM 15, 25
+write "Sum of 15 and 25: {sum_result}"
+
+square_result = GET_SQUARE 7
+write "Square of 7: {square_result}"
+
+grade = GET_GRADE 85
+write "Grade for 85: {grade}"
+
+grade = GET_GRADE 72
+write "Grade for 72: {grade}"

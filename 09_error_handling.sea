@@ -1,0 +1,43 @@
+# Error Handling with try/except
+
+write "=== Number Conversion Example ==="
+try:
+    number_str is equal to "42"
+    number = int number_str
+    write "Converted: {number}"
+except ValueError:
+    write "Error: Could not convert to integer"
+
+write ""
+write "=== User Input Validation ==="
+try:
+    age_str is equal to input "Enter your age: "
+    age = int age_str
+    
+    if age less than 0:
+        write "Age cannot be negative!"
+    else:
+        write "Your age is {age}"
+except ValueError:
+    write "Error: Age must be a number"
+
+write ""
+write "=== Division with Error Handling ==="
+try:
+    a is equal to 10
+    b = int input "Enter divisor: "
+    result = a over b
+    write "10 / {b} = {result}"
+except ZeroDivisionError:
+    write "Error: Cannot divide by zero"
+except ValueError:
+    write "Error: Please enter a valid number"
+
+write ""
+write "=== Generic Exception Handler ==="
+try:
+    risky_operation = "Something might fail"
+except:
+    write "An unexpected error occurred"
+
+write "Program completed"

@@ -1,0 +1,18 @@
+# Fibonacci Sequence Generator
+
+write "=============================="
+write "  Fibonacci Sequence"
+write "=============================="
+write ""
+
+a is equal to int 0.
+b is equal to int 1.
+
+print "({a},{b}", end=""
+count = int (input "Enter max count: ")
+i approches to count:
+    print a+b
+    c = a+b
+    a = b
+    b = c
+print ")", end=""
